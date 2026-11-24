@@ -1,33 +1,33 @@
-# Tugas Perpustakaan Nusantara
+# Perpustakaan Nusantara
 
-Kerangka awal proyek PHP Native dengan struktur MVC.
+Proyek ini dibuat menggunakan PHP Native. Untuk tahap awal, folder dasar MVC sudah disiapkan.
 
-## Struktur
+## Folder proyek
 
-- `app/Controllers/` — menerima request dan mengatur alur aplikasi.
-- `app/Models/` — aturan data dan akses database.
-- `app/Views/` — halaman yang ditampilkan kepada pengguna.
-- `config/` — konfigurasi aplikasi.
-- `routes/` — pemetaan URL ke controller.
-- `public/` — document root dan pintu masuk aplikasi.
+- `app/Controllers/` untuk controller.
+- `app/Models/` untuk model dan pengelolaan data.
+- `app/Views/` untuk halaman yang ditampilkan.
+- `config/` untuk konfigurasi.
+- `routes/` untuk daftar rute.
+- `public/` untuk file yang diakses dari browser.
 
-## Menjalankan kerangka
+## Menjalankan proyek
 
-Pastikan PHP tersedia, lalu jalankan dari folder proyek:
+Jalankan perintah ini dari folder proyek:
 
 ```sh
 php -S localhost:8000 -t public
 ```
 
-Buka `http://localhost:8000` di browser.
+Lalu buka `http://localhost:8000` di browser.
 
-## Mulai berkolaborasi
+## Kerja kelompok
 
-Clone repository tim:
+Salin repository ke komputer masing-masing:
 
 ```sh
 git clone https://github.com/Kagyu246/Perpustakaan-Nusantara.git
 cd Perpustakaan-Nusantara
 ```
 
-Kerjakan perubahan pada branch masing-masing, lalu ajukan pull request sebelum menggabungkannya ke branch `main`. Catat progres di [LOGBOOK.md](LOGBOOK.md).
+Simpan pekerjaan di branch sendiri dan ajukan pull request sebelum digabung ke `main`. Catatan progres ada di [LOGBOOK.md](LOGBOOK.md).

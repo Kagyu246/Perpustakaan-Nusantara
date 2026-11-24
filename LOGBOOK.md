@@ -1,5 +1,5 @@
-# Logbook Progres
+# Logbook
 
 | Tanggal | Pekerjaan | Hasil/bukti | Kendala |
 | --- | --- | --- | --- |
-| 2026-11-24 | Menyiapkan struktur folder MVC, repository Git lokal, dan koneksi ke GitHub | Commit setup: `18d5cf4` — https://github.com/Kagyu246/Perpustakaan-Nusantara/commit/18d5cf4 | Tidak ada |
+| 2026-11-24 | Membuat folder dasar MVC dan menyiapkan repository untuk kerja kelompok. | Struktur proyek sudah ada di GitHub. [Commit setup](https://github.com/Kagyu246/Perpustakaan-Nusantara/commit/18d5cf4) | Belum ada kendala. |
