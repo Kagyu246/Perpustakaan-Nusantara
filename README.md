@@ -21,20 +21,13 @@ php -S localhost:8000 -t public
 
 Buka `http://localhost:8000` di browser.
 
-## Kolaborasi GitHub
+## Mulai berkolaborasi
 
-Setelah repository tim dibuat di GitHub, sambungkan dengan:
+Clone repository tim:
 
 ```sh
-git remote add origin <URL-repository-tim>
-git branch -M main
-git push -u origin main
+git clone https://github.com/Kagyu246/Perpustakaan-Nusantara.git
+cd Perpustakaan-Nusantara
 ```
 
-Gunakan branch untuk pekerjaan masing-masing dan ajukan pull request sebelum menggabungkan perubahan ke branch utama.
-
-## Logbook
-
-| Tanggal | Pekerjaan | Hasil/bukti | Kendala |
-| --- | --- | --- | --- |
-| YYYY-MM-DD | Setup struktur MVC dan repository | Kerangka folder / tautan commit | — |
+Kerjakan perubahan pada branch masing-masing, lalu ajukan pull request sebelum menggabungkannya ke branch `main`. Catat progres di [LOGBOOK.md](LOGBOOK.md).
